@@ -62,6 +62,18 @@ public class SyncedCachedEnforcer extends SyncedEnforcer{
     }
 
     /**
+     * Initializes an enforcer with a model file, a database adapter, and a logging flag.
+     *
+     * @param modelPath The path of the model file.
+     * @param adapter   The adapter for the database.
+     * @param enableLog Whether to enable logging for Casbin.
+     */
+    public SyncedCachedEnforcer(String modelPath, Adapter adapter, boolean enableLog) {
+        super(modelPath, adapter, enableLog);
+        this.cache = new DefaultCache();
+    }
+
+    /**
      * Initializes an enforcer with a model and a database adapter.
      *
      * @param m       The model.
@@ -69,6 +81,18 @@ public class SyncedCachedEnforcer extends SyncedEnforcer{
      */
     public SyncedCachedEnforcer(Model m, Adapter adapter) {
         super(m, adapter);
+        this.cache = new DefaultCache();
+    }
+
+    /**
+     * Initializes an enforcer with a model, a database adapter, and a logging flag.
+     *
+     * @param m         The model.
+     * @param adapter   The adapter for the database.
+     * @param enableLog Whether to enable logging for Casbin.
+     */
+    public SyncedCachedEnforcer(Model m, Adapter adapter, boolean enableLog) {
+        super(m, adapter, enableLog);
         this.cache = new DefaultCache();
     }
 

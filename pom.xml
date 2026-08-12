@@ -8,7 +8,7 @@
 
     <name>JCasbin Authorization Library</name>
     <description>An authorization library that supports access control models like ACL, RBAC, ABAC in Java</description>
-    <url>https://casbin.org/</url>
+    <url>https://casbin.apache.org/</url>
     <inceptionYear>2017</inceptionYear>
 
     <issueManagement>

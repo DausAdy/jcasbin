@@ -13,7 +13,7 @@
 
     <issueManagement>
         <system>Github</system>
-        <url>https://github.com/casbin/jcasbin/issues</url>
+        <url>https://github.com/apache/casbin-jcasbin/issues</url>
     </issueManagement>
 
     <parent>
@@ -29,9 +29,9 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/casbin/jcasbin</url>
-        <connection>scm:git@github.com:casbin/jcasbin.git</connection>
-        <developerConnection>scm:git:https://github.com/casbin/jcasbin.git</developerConnection>
+        <url>https://github.com/apache/casbin-jcasbin</url>
+        <connection>scm:git@github.com:apache/casbin-jcasbin.git</connection>
+        <developerConnection>scm:git:https://github.com/apache/casbin-jcasbin.git</developerConnection>
     </scm>
     <developers>
         <developer>
